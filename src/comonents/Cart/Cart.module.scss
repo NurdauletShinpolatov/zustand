@@ -1,0 +1,15 @@
+.cart{
+    border-left: 1px solid black;
+    padding: 24px;
+
+    .header{
+        font-size: 32px;
+    }
+
+    .elements{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
