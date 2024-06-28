@@ -6,7 +6,21 @@
         font-size: 32px;
     }
 
+    .clearBtn{
+        margin-top: 16px;
+        background-color: lightgray;
+        outline: none;
+
+        &:active{
+            background-color: rgb(122, 122, 122);
+        }
+        &:hover{
+            background-color: rgb(190, 190, 190);
+        }
+    }
+
     .elements{
+        padding-top: 16px;
         display: flex;
         flex-direction: column;
         gap: 10px;

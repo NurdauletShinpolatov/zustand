@@ -12,6 +12,7 @@ export default function Book({ book, btnString }) {
         }
     }
 
+    // hide the button if the book is added to the cart
     const hideBtn = btnString == "-" ? false : !!cart.find(elem => elem.id == book.id) 
 
     return(

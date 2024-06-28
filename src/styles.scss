@@ -1,6 +1,11 @@
 .main{
     width: 100vw;
     min-height: 100vh;
+}
+
+.grid-4-1{
+    width: 100%;
+    min-height: 100%;
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
