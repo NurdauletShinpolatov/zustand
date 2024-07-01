@@ -8,15 +8,12 @@ export default function Cards() {
   const [user, setUser] = useStore("user");
 
   const changeName = () => {
-    console.log("changing"); // log
     setUser((oldUser) => {
       if (oldUser.name == "Bob") {
-        console.log("Nureke"); // log
         return {
           name: "Nureke",
         };
       } else {
-        console.log("Bob"); // log
         return {
           name: "Bob",
         };
@@ -24,7 +21,7 @@ export default function Cards() {
     });
   };
 
-  console.log("rendering Cards", user); // log
+  console.log("rendering Cards"); // log
   return (
     <div className={cls.container}>
       <button onClick={() => setCount((c) => c + 1)}>Increase</button>
